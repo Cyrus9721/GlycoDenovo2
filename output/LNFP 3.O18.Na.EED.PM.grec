@@ -1,0 +1,75 @@
+# LNFP 3. [Fuc(a1-3)] [Gal(b1-4)] GlcNAc(b1-3) Gal(b1-4) Glc(b1-0)
+# Check -2H = 2
+# Allow gap = 0
+# Composition: [Fuc: 1] [Hex: 3] [HexNAc: 1]
+
+@ Peak 1 mass 207.122700 rawMZ -1.000000 rawZ -1 intensity 27866270
+** C: Fuc [Peaks (1, 1.00): 1]
+
+@ Peak 2 mass 237.133265 rawMZ -1.000000 rawZ -1 intensity 27256052
+** C: Hex [Peaks (1, 1.00): 2]
+
+@ Peak 3 mass 409.206824 rawMZ 431.188690 rawZ 1 intensity 9813665
+** C-2H: Fuc Hex [Peaks (2, 2.00): 1 4]
+
+@ Peak 4 mass 411.222474 rawMZ 433.204320 rawZ 1 intensity 35883072
+** C: Fuc Hex [Peaks (2, 2.00): 1 4]
+
+@ Peak 5 mass 441.233038 rawMZ -1.000000 rawZ -1 intensity 111588392
+** C: Hex Hex [Peaks (2, 2.00): 2 5]
+
+@ Peak 6 mass 450.233373 rawMZ 472.215290 rawZ 1 intensity 29767088
+** C-2H: Fuc HexNAc [Peaks (2, 2.00): 1 6]
+
+@ Peak 7 mass 482.259588 rawMZ -1.000000 rawZ -1 intensity 28691564
+** C: Hex HexNAc [Peaks (2, 2.00): 2 7]
+
+@ Peak 8 mass 613.306597 rawMZ 227.088200 rawZ 3 intensity 3391427
+** C-2H: Fuc Hex Hex [Peaks (3, 3.00): 1 4 8]
+** C-2H: [Hex] [Fuc] Hex [Peaks (3, 3.00): 1 2 8]
+
+@ Peak 9 mass 638.338232 rawMZ 660.320210 rawZ 1 intensity 99832968
+** B: Fuc Hex HexNAc [Peaks (4, 4.00): 1 4 9 11]
+** B: Fuc HexNAc Hex [Peaks (4, 4.00): 1 6 9 11]
+** B: [Hex] [Fuc] HexNAc [Peaks (4, 4.00): 1 2 9 11]
+
+@ Peak 10 mass 654.333146 rawMZ 676.314990 rawZ 1 intensity 89537488
+** C-2H: Fuc Hex HexNAc [Peaks (4, 4.00): 1 4 9 11]
+** C-2H: Fuc HexNAc Hex [Peaks (4, 4.00): 1 6 9 11]
+** C-2H: [Hex] [Fuc] HexNAc [Peaks (4, 4.00): 1 2 9 11]
+
+@ Peak 11 mass 656.348796 rawMZ -1.000000 rawZ -1 intensity 65546112
+** C: Fuc Hex HexNAc [Peaks (4, 4.00): 1 4 9 11]
+** C: Fuc HexNAc Hex [Peaks (4, 4.00): 1 6 9 11]
+** C: [Hex] [Fuc] HexNAc [Peaks (4, 4.00): 1 2 9 11]
+
+@ Peak 12 mass 858.432920 rawMZ 880.414600 rawZ 1 intensity 87656624
+** C-2H: Fuc Hex Hex HexNAc [Peaks (4, 4.00): 1 4 8 12]
+** C-2H: Fuc Hex HexNAc Hex [Peaks (5, 5.00): 1 4 9 11 12]
+** C-2H: Fuc HexNAc Hex Hex [Peaks (5, 5.00): 1 6 9 11 12]
+** C-2H: [Hex HexNAc] [Fuc] Hex [Peaks (4, 4.00): 1 2 7 12]
+** C-2H: [Hex Hex] [Fuc] HexNAc [Peaks (4, 4.00): 1 2 5 12]
+** C-2H: [Hex] [Fuc HexNAc] Hex [Peaks (4, 4.00): 1 2 6 12]
+** C-2H: [Hex] [Fuc Hex] HexNAc [Peaks (4, 4.00): 1 2 4 12]
+** C-2H: [Hex] [Fuc] Hex HexNAc [Peaks (4, 4.00): 1 2 8 12]
+** C-2H: [Hex] [Fuc] HexNAc Hex [Peaks (5, 5.00): 1 2 9 11 12]
+
+@ Peak 13 mass 1080.568244 rawMZ 1102.549410 rawZ 1 intensity 1.000000e-06
+** T: Fuc Hex HexNAc Hex Hex [Peaks (6, 6.00): 1 4 9 11 12 13]
+** T: Fuc HexNAc Hex Hex Hex [Peaks (6, 6.00): 1 6 9 11 12 13]
+** T: [Hex] [Fuc Hex HexNAc] Hex [Peaks (6, 6.00): 1 2 4 9 11 13]
+** T: [Hex] [Fuc HexNAc Hex] Hex [Peaks (6, 6.00): 1 2 6 9 11 13]
+** T: [Hex] [Fuc] HexNAc Hex Hex [Peaks (6, 6.00): 1 2 9 11 12 13]
+** T: Fuc Hex Hex HexNAc Hex [Peaks (5, 5.00): 1 4 8 12 13]
+** T: [Hex HexNAc] [Fuc Hex] Hex [Peaks (5, 5.00): 1 2 4 7 13]
+** T: [Hex HexNAc] [Fuc] Hex Hex [Peaks (5, 5.00): 1 2 7 12 13]
+** T: [Hex Hex] [Fuc HexNAc] Hex [Peaks (5, 5.00): 1 2 5 6 13]
+** T: [Hex Hex] [Fuc Hex] HexNAc [Peaks (5, 5.00): 1 2 4 5 13]
+** T: [Hex Hex] [Fuc] HexNAc Hex [Peaks (5, 5.00): 1 2 5 12 13]
+** T: [Hex] [Fuc Hex Hex] HexNAc [Peaks (5, 5.00): 1 2 4 8 13]
+** T: [Hex] [Fuc HexNAc] Hex Hex [Peaks (5, 5.00): 1 2 6 12 13]
+** T: [Hex] [Fuc Hex] HexNAc Hex [Peaks (5, 5.00): 1 2 4 12 13]
+** T: [Hex] [Fuc] Hex HexNAc Hex [Peaks (5, 5.00): 1 2 8 12 13]
+** T: [[Hex] [Fuc] HexNAc] [Hex] Hex [Peaks (5, 5.00): 1 2 9 11 13]
+** T: [[Hex] [Fuc] Hex] [Hex] HexNAc [Peaks (4, 4.00): 1 2 8 13]
+

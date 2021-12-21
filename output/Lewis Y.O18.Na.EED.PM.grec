@@ -1,0 +1,28 @@
+# Lewis Y. [Fuc(a1-2) Gal(b1-4)][Fuc(a1-3)] GlcNAc(b1-0)
+# Check -2H = 0
+# Allow gap = 0
+# Composition: [Fuc: 2] [Hex: 1] [HexNAc: 1]
+
+@ Peak 1 mass 189.112135 rawMZ -1.000000 rawZ -1 intensity 117455600
+** B: Fuc [Peaks (2, 2.00): 1 2]
+
+@ Peak 2 mass 207.122700 rawMZ -1.000000 rawZ -1 intensity 1724683392
+** C: Fuc [Peaks (2, 2.00): 1 2]
+
+@ Peak 7 mass 393.211909 rawMZ 415.193840 rawZ 1 intensity 47328840
+** B: Fuc Hex [Peaks (4, 4.00): 1 2 7 8]
+
+@ Peak 8 mass 411.222474 rawMZ 433.204390 rawZ 1 intensity 230202128
+** C: Fuc Hex [Peaks (4, 4.00): 1 2 7 8]
+
+@ Peak 9 mass 585.311683 rawMZ 607.293690 rawZ 1 intensity 7494302
+** C: [Fuc] [Fuc] Hex [Peaks (3, 3.00): 1 2 9]
+
+@ Peak 10 mass 608.327667 rawMZ 630.309590 rawZ 1 intensity 68712144
+** B: [Fuc] [Fuc] HexNAc [Peaks (3, 3.00): 1 2 10]
+
+@ Peak 11 mass 846.457905 rawMZ -1.000000 rawZ -1 intensity 1.000000e-06
+** T: [Fuc Hex] [Fuc] HexNAc [Peaks (5, 5.00): 1 2 7 8 11]
+** T: [Fuc] [Fuc] Hex HexNAc [Peaks (4, 4.00): 1 2 9 11]
+** T: [Fuc] [Fuc] HexNAc Hex [Peaks (4, 4.00): 1 2 10 11]
+

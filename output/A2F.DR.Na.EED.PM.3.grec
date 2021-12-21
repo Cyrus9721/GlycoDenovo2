@@ -1,0 +1,47 @@
+# A2F. [[NeuAc(a2-6) Gal(b1-4) GlcNAc(b1-2) Man(a1-3)] [NeuAc(a2-6) Gal(b1-4) GlcNAc(b1-2) Man(a1-6)] Man(b1-4) GlcNAc(b1-4)] [Fuc(a1-6)] GlcNAc(b1-0)
+# Check -2H = 2
+# Allow gap = 0
+# Composition: [Fuc: 1] [Hex: 5] [HexNAc: 4] [Neu5Ac: 2]
+
+@ Peak 1 mass 207.122700 rawMZ -1.000000 rawZ -1 intensity 11350894
+** C: Fuc [Peaks (1, 1.00): 1]
+
+@ Peak 2 mass 376.196593 rawMZ 398.178550 rawZ 1 intensity 30827474
+** B: Neu5Ac [Peaks (2, 2.00): 2 3]
+
+@ Peak 3 [IsCom] mass 394.207158 rawMZ -1.000000 rawZ -1 intensity 13856568
+** C: Neu5Ac [Peaks (2, 2.00): 2 3]
+
+@ Peak 6 mass 596.291282 rawMZ 618.273060 rawZ 1 intensity 437807424
+** C-2H: Neu5Ac Hex [Peaks (3, 3.00): 2 3 7]
+
+@ Peak 7 mass 598.306932 rawMZ 620.288790 rawZ 1 intensity 57394792
+** C: Neu5Ac Hex [Peaks (3, 3.00): 2 3 7]
+
+@ Peak 12 mass 825.422690 rawMZ 847.406430 rawZ 1 intensity 40714896
+** B: Neu5Ac Hex HexNAc [Peaks (4, 4.00): 2 3 7 12]
+
+@ Peak 13 mass 841.417604 rawMZ 863.399620 rawZ 1 intensity 133509200
+** C-2H: Neu5Ac Hex HexNAc [Peaks (4, 4.00): 2 3 7 14]
+
+@ Peak 14 mass 843.433254 rawMZ -1.000000 rawZ -1 intensity 32066940
+** C: Neu5Ac Hex HexNAc [Peaks (4, 4.00): 2 3 7 14]
+
+@ Peak 17 mass 1045.517378 rawMZ 1067.499540 rawZ 1 intensity 69963224
+** C-2H: Neu5Ac Hex HexNAc Hex [Peaks (6, 5.00): 2 3 7 12 14 17]
+
+@ Peak 25 mass 2264.116688 rawMZ 2286.098000 rawZ 1 intensity 48207700
+** C-2H: [Neu5Ac Hex HexNAc Hex] [Neu5Ac Hex HexNAc Hex] Hex [Peaks (7, 7.00): 2 3 7 12 14 17 26]
+
+@ Peak 26 mass 2266.132338 rawMZ -1.000000 rawZ -1 intensity 37616116
+** C: [Neu5Ac Hex HexNAc Hex] [Neu5Ac Hex HexNAc Hex] Hex [Peaks (7, 7.00): 2 3 7 12 14 17 26]
+
+@ Peak 29 mass 2493.248096 rawMZ -1.000000 rawZ -1 intensity 33815732
+** B: [Neu5Ac Hex HexNAc Hex] [Neu5Ac Hex HexNAc Hex] Hex HexNAc [Peaks (9, 9.00): 2 3 7 12 14 17 26 29 30]
+
+@ Peak 30 mass 2511.258661 rawMZ -1.000000 rawZ -1 intensity 31425406
+** C: [Neu5Ac Hex HexNAc Hex] [Neu5Ac Hex HexNAc Hex] Hex HexNAc [Peaks (9, 9.00): 2 3 7 12 14 17 26 29 30]
+
+@ Peak 31 mass 2961.527423 rawMZ -1.000000 rawZ -1 intensity 1.000000e-06
+** T: [[Neu5Ac Hex HexNAc Hex] [Neu5Ac Hex HexNAc Hex] Hex HexNAc] [Fuc] HexNAc [Peaks (11, 11.00): 1 2 3 7 12 14 17 26 29 30 31]
+

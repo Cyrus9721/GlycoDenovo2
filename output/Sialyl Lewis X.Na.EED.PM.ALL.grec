@@ -1,0 +1,94 @@
+# Sialyl Lewis X. [Neu5Ac(a2-3) Gal(b1-4)] [Fuc(a1-3)] GlcNAc
+# Check -2H = 0
+# Allow gap = 0
+
+@ Peak 38 complement -297 mass 189.111926 rawMZ 865.414940 rawZ 1 intensity 11514935
+** B: Fuc [Peaks (2, 2.00): 38 49]
+
+@ Peak 49 complement -286 mass 207.122246 rawMZ -1.000000 rawZ -1 intensity 191932060
+** C: Fuc [Peaks (2, 2.00): 38 49]
+
+@ Peak 55 complement -280 mass 237.133126 rawMZ 817.393740 rawZ 1 intensity 18137030
+** C: Hex [Peaks (1, 1.00): 55]
+
+@ Peak 70 complement -265 mass 278.159286 rawMZ 776.367580 rawZ 1 intensity 5918108
+** C: HexNAc [Peaks (1, 1.00): 70]
+
+@ Peak 115 complement 220 mass 376.196706 rawMZ 398.178650 rawZ 1 intensity 43291432
+** B: Neu5Ac [Peaks (2, 2.00): 115 121]
+
+@ Peak 121 complement 214 mass 394.207136 rawMZ 416.189080 rawZ 1 intensity 8002600
+** C: Neu5Ac [Peaks (2, 2.00): 115 121]
+
+@ Peak 132 complement 203 mass 434.238596 rawMZ 456.220540 rawZ 1 intensity 84463384
+** B: Fuc HexNAc [Peaks (4, 4.00): 38 49 132 140]
+
+@ Peak 140 complement 195 mass 452.249226 rawMZ 474.231170 rawZ 1 intensity 12561285
+** C: Fuc HexNAc [Peaks (4, 4.00): 38 49 132 140]
+
+@ Peak 152 complement -183 mass 482.258826 rawMZ 572.268040 rawZ 1 intensity 54628320
+** C: Hex HexNAc [Peaks (2, 2.00): 55 152]
+** C: HexNAc Hex [Peaks (2, 2.00): 70 152]
+
+@ Peak 183 complement -152 mass 550.286096 rawMZ 572.268040 rawZ 1 intensity 54628320
+** B: Fuc Neu5Ac [Peaks (3, 3.00): 38 49 183]
+
+@ Peak 195 complement 140 mass 580.296726 rawMZ 602.278670 rawZ 1 intensity 10272154
+** B: Fuc Neu5Gc [Peaks (4, 4.00): 38 49 195 203]
+** B: Hex Neu5Ac [Peaks (3, 3.00): 55 195 203]
+** B: Neu5Ac Hex [Peaks (4, 4.00): 115 121 195 203]
+
+@ Peak 203 complement 132 mass 598.307146 rawMZ 620.289090 rawZ 1 intensity 107745880
+** C: Fuc Neu5Gc [Peaks (4, 4.00): 38 49 195 203]
+** C: Hex Neu5Ac [Peaks (3, 3.00): 55 195 203]
+** C: Neu5Ac Hex [Peaks (4, 4.00): 115 121 195 203]
+
+@ Peak 206 complement -129 mass 608.327786 rawMZ 630.309730 rawZ 1 intensity 413162688
+** B: [Fuc] [Fuc] HexNAc [Peaks (3, 3.00): 38 49 206]
+
+@ Peak 214 complement 121 mass 638.338056 rawMZ 660.320000 rawZ 1 intensity 127964832
+** B: Fuc HexNAc Hex [Peaks (6, 6.00): 38 49 132 140 214 220]
+** B: [HexNAc] [Fuc] Hex [Peaks (5, 5.00): 38 49 70 214 220]
+** B: [Hex] [Fuc] HexNAc [Peaks (5, 5.00): 38 49 55 214 220]
+
+@ Peak 220 complement 115 mass 656.348716 rawMZ 678.330660 rawZ 1 intensity 717227392
+** C: Fuc HexNAc Hex [Peaks (6, 6.00): 38 49 132 140 214 220]
+** C: [HexNAc] [Fuc] Hex [Peaks (5, 5.00): 38 49 70 214 220]
+** C: [Hex] [Fuc] HexNAc [Peaks (5, 5.00): 38 49 55 214 220]
+
+@ Peak 265 complement -70 mass 754.385636 rawMZ 776.367580 rawZ 1 intensity 5918108
+** B: [Fuc] [Fuc] Neu5Gc [Peaks (3, 3.00): 38 49 265]
+** B: Fuc Neu5Ac Hex [Peaks (4, 4.00): 38 49 183 265]
+** B: [Hex] [Fuc] Neu5Ac [Peaks (4, 4.00): 38 49 55 265]
+** B: [Neu5Ac] [Fuc] Hex [Peaks (5, 5.00): 38 49 115 121 265]
+
+@ Peak 280 complement -55 mass 795.411796 rawMZ 817.393740 rawZ 1 intensity 18137030
+** B: Fuc HexNAc Neu5Ac [Peaks (5, 5.00): 38 49 132 140 280]
+** B: Fuc Neu5Ac HexNAc [Peaks (4, 4.00): 38 49 183 280]
+** B: [HexNAc] [Fuc] Neu5Ac [Peaks (4, 4.00): 38 49 70 280]
+** B: [Neu5Ac] [Fuc] HexNAc [Peaks (5, 5.00): 38 49 115 121 280]
+
+@ Peak 368 mass 1031.537646 rawMZ 1053.519590 rawZ 1 intensity 10442343424
+** T: [Fuc HexNAc] [Fuc] Neu5Gc [Peaks (5, 5.00): 38 49 132 140 368]
+** T: [Fuc Neu5Gc] [Fuc] HexNAc [Peaks (5, 5.00): 38 49 195 203 368]
+** T: [Fuc] [Fuc] HexNAc Neu5Gc [Peaks (4, 4.00): 38 49 206 368]
+** T: [Fuc] [Fuc] Neu5Gc HexNAc [Peaks (4, 4.00): 38 49 265 368]
+** T: Fuc HexNAc Hex Neu5Ac [Peaks (7, 7.00): 38 49 132 140 214 220 368]
+** T: [Neu5Ac Hex] [Fuc] HexNAc [Peaks (7, 7.00): 38 49 115 121 195 203 368]
+** T: [Neu5Ac] [Fuc HexNAc] Hex [Peaks (7, 7.00): 38 49 115 121 132 140 368]
+** T: Fuc HexNAc Neu5Ac Hex [Peaks (6, 6.00): 38 49 132 140 280 368]
+** T: [Hex Neu5Ac] [Fuc] HexNAc [Peaks (6, 6.00): 38 49 55 195 203 368]
+** T: [HexNAc] [Fuc] Hex Neu5Ac [Peaks (6, 6.00): 38 49 70 214 220 368]
+** T: [Hex] [Fuc HexNAc] Neu5Ac [Peaks (6, 6.00): 38 49 55 132 140 368]
+** T: [Hex] [Fuc] HexNAc Neu5Ac [Peaks (6, 6.00): 38 49 55 214 220 368]
+** T: [Neu5Ac] [Fuc] Hex HexNAc [Peaks (6, 6.00): 38 49 115 121 265 368]
+** T: [Neu5Ac] [Fuc] HexNAc Hex [Peaks (6, 6.00): 38 49 115 121 280 368]
+** T: Fuc Neu5Ac Hex HexNAc [Peaks (5, 5.00): 38 49 183 265 368]
+** T: Fuc Neu5Ac HexNAc Hex [Peaks (5, 5.00): 38 49 183 280 368]
+** T: [Hex HexNAc] [Fuc] Neu5Ac [Peaks (5, 5.00): 38 49 55 152 368]
+** T: [HexNAc Hex] [Fuc] Neu5Ac [Peaks (5, 5.00): 38 49 70 152 368]
+** T: [HexNAc] [Fuc Neu5Ac] Hex [Peaks (5, 5.00): 38 49 70 183 368]
+** T: [HexNAc] [Fuc] Neu5Ac Hex [Peaks (5, 5.00): 38 49 70 280 368]
+** T: [Hex] [Fuc Neu5Ac] HexNAc [Peaks (5, 5.00): 38 49 55 183 368]
+** T: [Hex] [Fuc] Neu5Ac HexNAc [Peaks (5, 5.00): 38 49 55 265 368]
+

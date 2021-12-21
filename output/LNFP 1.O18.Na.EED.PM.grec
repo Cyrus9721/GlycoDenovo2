@@ -1,0 +1,62 @@
+# LNFP 1. Fuc(a1-2) Gal(b1-3) GlcNAc(b1-3) Gal(b1-4) Glc(b1-0)
+# Check -2H = 2
+# Allow gap = 0
+# Composition: [Fuc: 1] [Hex: 3] [HexNAc: 1]
+
+@ Peak 1 mass 207.122700 rawMZ -1.000000 rawZ -1 intensity 29855490
+** C: Fuc [Peaks (1, 1.00): 1]
+
+@ Peak 2 mass 237.133265 rawMZ -1.000000 rawZ -1 intensity 14107676
+** C: Hex [Peaks (1, 1.00): 2]
+
+@ Peak 3 mass 411.222474 rawMZ 433.204360 rawZ 1 intensity 42770552
+** C: Fuc Hex [Peaks (2, 2.00): 1 3]
+
+@ Peak 4 mass 441.233038 rawMZ -1.000000 rawZ -1 intensity 135879872
+** C: Hex Hex [Peaks (2, 2.00): 2 4]
+
+@ Peak 5 mass 450.233373 rawMZ 472.215510 rawZ 1 intensity 14416883
+** C-2H: Fuc HexNAc [Peaks (2, 2.00): 1 5]
+
+@ Peak 6 mass 482.259588 rawMZ -1.000000 rawZ -1 intensity 42323132
+** C: Hex HexNAc [Peaks (2, 2.00): 2 6]
+
+@ Peak 7 mass 638.338232 rawMZ 660.320030 rawZ 1 intensity 131377512
+** B: Fuc Hex HexNAc [Peaks (4, 4.00): 1 3 7 9]
+** B: Fuc HexNAc Hex [Peaks (4, 4.00): 1 5 7 9]
+** B: [Hex] [Fuc] HexNAc [Peaks (4, 4.00): 1 2 7 9]
+
+@ Peak 8 mass 654.333146 rawMZ 676.315130 rawZ 1 intensity 104312912
+** C-2H: Fuc Hex HexNAc [Peaks (4, 4.00): 1 3 7 9]
+** C-2H: Fuc HexNAc Hex [Peaks (4, 4.00): 1 5 7 9]
+** C-2H: [Hex] [Fuc] HexNAc [Peaks (4, 4.00): 1 2 7 9]
+
+@ Peak 9 mass 656.348796 rawMZ -1.000000 rawZ -1 intensity 84602680
+** C: Fuc Hex HexNAc [Peaks (4, 4.00): 1 3 7 9]
+** C: Fuc HexNAc Hex [Peaks (4, 4.00): 1 5 7 9]
+** C: [Hex] [Fuc] HexNAc [Peaks (4, 4.00): 1 2 7 9]
+
+@ Peak 10 mass 858.432920 rawMZ 880.415000 rawZ 1 intensity 24791688
+** C-2H: Fuc Hex HexNAc Hex [Peaks (5, 5.00): 1 3 7 9 10]
+** C-2H: Fuc HexNAc Hex Hex [Peaks (5, 5.00): 1 5 7 9 10]
+** C-2H: [Hex HexNAc] [Fuc] Hex [Peaks (4, 4.00): 1 2 6 10]
+** C-2H: [Hex Hex] [Fuc] HexNAc [Peaks (4, 4.00): 1 2 4 10]
+** C-2H: [Hex] [Fuc HexNAc] Hex [Peaks (4, 4.00): 1 2 5 10]
+** C-2H: [Hex] [Fuc Hex] HexNAc [Peaks (4, 4.00): 1 2 3 10]
+** C-2H: [Hex] [Fuc] HexNAc Hex [Peaks (5, 5.00): 1 2 7 9 10]
+
+@ Peak 12 mass 1080.568244 rawMZ 1102.549790 rawZ 1 intensity 1.000000e-06
+** T: Fuc Hex HexNAc Hex Hex [Peaks (6, 6.00): 1 3 7 9 10 12]
+** T: Fuc HexNAc Hex Hex Hex [Peaks (6, 6.00): 1 5 7 9 10 12]
+** T: [Hex] [Fuc Hex HexNAc] Hex [Peaks (6, 6.00): 1 2 3 7 9 12]
+** T: [Hex] [Fuc HexNAc Hex] Hex [Peaks (6, 6.00): 1 2 5 7 9 12]
+** T: [Hex] [Fuc] HexNAc Hex Hex [Peaks (6, 6.00): 1 2 7 9 10 12]
+** T: [Hex HexNAc] [Fuc Hex] Hex [Peaks (5, 5.00): 1 2 3 6 12]
+** T: [Hex HexNAc] [Fuc] Hex Hex [Peaks (5, 5.00): 1 2 6 10 12]
+** T: [Hex Hex] [Fuc HexNAc] Hex [Peaks (5, 5.00): 1 2 4 5 12]
+** T: [Hex Hex] [Fuc Hex] HexNAc [Peaks (5, 5.00): 1 2 3 4 12]
+** T: [Hex Hex] [Fuc] HexNAc Hex [Peaks (5, 5.00): 1 2 4 10 12]
+** T: [Hex] [Fuc HexNAc] Hex Hex [Peaks (5, 5.00): 1 2 5 10 12]
+** T: [Hex] [Fuc Hex] HexNAc Hex [Peaks (5, 5.00): 1 2 3 10 12]
+** T: [[Hex] [Fuc] HexNAc] [Hex] Hex [Peaks (5, 5.00): 1 2 7 9 12]
+

@@ -1,0 +1,189 @@
+# A2F. [[NeuAc(a2-6) Gal(b1-4) GlcNAc(b1-2) Man(a1-3)] [NeuAc(a2-6) Gal(b1-4) GlcNAc(b1-2) Man(a1-6)] Man(b1-4) GlcNAc(b1-4)] [Fuc(a1-6)] GlcNAc(b1-0)
+# Check -2H = 2
+# Allow gap = 0
+# Composition: [Fuc: 2] [Hex: 4] [HexNAc: 4] [Neu5Ac: 1] [Neu5Gc: 1]
+
+@ Peak 1 mass 207.122700 rawMZ -1.000000 rawZ -1 intensity 11350894
+** C: Fuc [Peaks (1, 1.00): 1]
+
+@ Peak 2 mass 376.196593 rawMZ 398.178550 rawZ 1 intensity 30827474
+** B: Neu5Ac [Peaks (2, 2.00): 2 3]
+
+@ Peak 3 [IsCom] mass 394.207158 rawMZ -1.000000 rawZ -1 intensity 13856568
+** C: Neu5Ac [Peaks (2, 2.00): 2 3]
+
+@ Peak 4 [IsCom] mass 424.217723 rawMZ -1.000000 rawZ -1 intensity 5259702
+** C: Neu5Gc [Peaks (1, 1.00): 4]
+
+@ Peak 5 mass 550.285802 rawMZ 572.268250 rawZ 1 intensity 20300734
+** B: Fuc Neu5Ac [Peaks (2, 2.00): 1 5]
+
+@ Peak 6 mass 566.280717 rawMZ 588.263040 rawZ 1 intensity 118661448
+** C-2H: Fuc Neu5Ac [Peaks (2, 2.00): 1 6]
+
+@ Peak 7 mass 596.291282 rawMZ 618.273060 rawZ 1 intensity 437807424
+** C-2H: Fuc Neu5Gc [Peaks (2, 2.00): 1 8]
+** C-2H: Neu5Ac Hex [Peaks (3, 3.00): 2 3 8]
+
+@ Peak 8 mass 598.306932 rawMZ 620.288790 rawZ 1 intensity 57394792
+** C: Fuc Neu5Gc [Peaks (2, 2.00): 1 8]
+** C: Neu5Ac Hex [Peaks (3, 3.00): 2 3 8]
+
+@ Peak 9 mass 628.317496 rawMZ -1.000000 rawZ -1 intensity 23263434
+** C: Neu5Gc Hex [Peaks (2, 2.00): 4 9]
+
+@ Peak 12 mass 754.385576 rawMZ 776.367820 rawZ 1 intensity 48031300
+** B: Fuc Neu5Ac Hex [Peaks (4, 3.00): 1 5 6 12]
+** B: [Fuc] [Fuc] Neu5Gc [Peaks (2, 2.00): 1 12]
+** B: [Neu5Ac] [Fuc] Hex [Peaks (4, 4.00): 1 2 3 12]
+
+@ Peak 13 mass 811.407040 rawMZ 833.389470 rawZ 1 intensity 17668546
+** C-2H: Fuc Neu5Ac HexNAc [Peaks (4, 3.00): 1 5 6 13]
+** C-2H: [Neu5Ac] [Fuc] HexNAc [Peaks (4, 4.00): 1 2 3 13]
+
+@ Peak 14 mass 825.422690 rawMZ 847.406430 rawZ 1 intensity 40714896
+** B: Fuc Neu5Gc HexNAc [Peaks (4, 4.00): 1 8 14 16]
+** B: Neu5Ac Hex HexNAc [Peaks (5, 5.00): 2 3 8 14 16]
+** B: [Neu5Gc] [Fuc] HexNAc [Peaks (4, 4.00): 1 4 14 16]
+
+@ Peak 15 mass 841.417604 rawMZ 863.399620 rawZ 1 intensity 133509200
+** C-2H: Fuc Neu5Gc HexNAc [Peaks (4, 4.00): 1 8 14 16]
+** C-2H: Neu5Ac Hex HexNAc [Peaks (5, 5.00): 2 3 8 14 16]
+** C-2H: [Neu5Gc] [Fuc] HexNAc [Peaks (4, 4.00): 1 4 14 16]
+
+@ Peak 16 mass 843.433254 rawMZ -1.000000 rawZ -1 intensity 32066940
+** C: Fuc Neu5Gc HexNAc [Peaks (4, 4.00): 1 8 14 16]
+** C: Neu5Ac Hex HexNAc [Peaks (5, 5.00): 2 3 8 14 16]
+** C: [Neu5Gc] [Fuc] HexNAc [Peaks (4, 4.00): 1 4 14 16]
+
+@ Peak 17 mass 873.443819 rawMZ -1.000000 rawZ -1 intensity 9009405
+** C: Neu5Gc Hex HexNAc [Peaks (3, 3.00): 4 9 17]
+
+@ Peak 19 mass 1015.506813 rawMZ 1037.489760 rawZ 1 intensity 11587690
+** C-2H: Fuc Neu5Ac Hex HexNAc [Peaks (5, 5.00): 1 5 6 12 19]
+** C-2H: Fuc Neu5Ac HexNAc Hex [Peaks (5, 5.00): 1 5 6 13 19]
+** C-2H: [Fuc Neu5Gc] [Fuc] HexNAc [Peaks (3, 3.00): 1 8 19]
+** C-2H: [Fuc] [Fuc] Neu5Gc HexNAc [Peaks (3, 3.00): 1 12 19]
+** C-2H: [Neu5Ac Hex] [Fuc] HexNAc [Peaks (5, 5.00): 1 2 3 8 19]
+** C-2H: [Neu5Ac] [Fuc] Hex HexNAc [Peaks (5, 5.00): 1 2 3 12 19]
+** C-2H: [Neu5Ac] [Fuc] HexNAc Hex [Peaks (5, 5.00): 1 2 3 13 19]
+
+@ Peak 20 mass 1045.517378 rawMZ 1067.499540 rawZ 1 intensity 69963224
+** C-2H: Fuc Neu5Gc HexNAc Hex [Peaks (5, 5.00): 1 8 14 16 20]
+** C-2H: Neu5Ac Hex HexNAc Hex [Peaks (6, 6.00): 2 3 8 14 16 20]
+** C-2H: [Neu5Gc Hex] [Fuc] HexNAc [Peaks (4, 4.00): 1 4 9 20]
+** C-2H: [Neu5Gc] [Fuc] HexNAc Hex [Peaks (5, 5.00): 1 4 14 16 20]
+
+@ Peak 21 mass 1077.543593 rawMZ -1.000000 rawZ -1 intensity 7642340
+** C: Neu5Gc Hex HexNAc Hex [Peaks (4, 4.00): 4 9 17 21]
+
+@ Peak 26 mass 1219.606587 rawMZ 1241.589220 rawZ 1 intensity 56598464
+** C-2H: Fuc Neu5Ac Hex HexNAc Hex [Peaks (6, 6.00): 1 5 6 12 19 26]
+** C-2H: Fuc Neu5Ac HexNAc Hex Hex [Peaks (6, 6.00): 1 5 6 13 19 26]
+** C-2H: [Fuc Neu5Gc HexNAc] [Fuc] Hex [Peaks (5, 5.00): 1 8 14 16 26]
+** C-2H: [Fuc Neu5Gc] [Fuc] HexNAc Hex [Peaks (4, 4.00): 1 8 19 26]
+** C-2H: [Fuc] [Fuc] Neu5Gc HexNAc Hex [Peaks (4, 4.00): 1 12 19 26]
+** C-2H: [Neu5Ac Hex HexNAc] [Fuc] Hex [Peaks (7, 7.00): 1 2 3 8 14 16 26]
+** C-2H: [Neu5Ac Hex] [Fuc] HexNAc Hex [Peaks (6, 6.00): 1 2 3 8 19 26]
+** C-2H: [Neu5Ac] [Fuc] Hex HexNAc Hex [Peaks (6, 6.00): 1 2 3 12 19 26]
+** C-2H: [Neu5Ac] [Fuc] HexNAc Hex Hex [Peaks (6, 6.00): 1 2 3 13 19 26]
+** C-2H: [[Neu5Gc] [Fuc] HexNAc] [Fuc] Hex [Peaks (5, 5.00): 1 4 14 16 26]
+
+@ Peak 31 mass 2264.116688 rawMZ 2286.098000 rawZ 1 intensity 48207700
+** C-2H: [Neu5Ac Hex HexNAc Hex] [Fuc Neu5Gc HexNAc Hex] Hex [Peaks (8, 8.00): 1 2 3 8 14 16 20 32]
+** C-2H: [Neu5Gc Hex HexNAc Hex] [Fuc Neu5Ac Hex HexNAc] Hex [Peaks (10, 10.00): 1 4 5 6 9 12 17 19 21 32]
+** C-2H: [Neu5Gc Hex HexNAc Hex] [Fuc Neu5Ac HexNAc Hex] Hex [Peaks (10, 10.00): 1 4 5 6 9 13 17 19 21 32]
+** C-2H: [Neu5Gc Hex HexNAc] [Fuc Neu5Ac Hex HexNAc Hex] Hex [Peaks (10, 10.00): 1 4 5 6 9 12 17 19 26 32]
+** C-2H: [Neu5Gc Hex HexNAc] [Fuc Neu5Ac HexNAc Hex Hex] Hex [Peaks (10, 10.00): 1 4 5 6 9 13 17 19 26 32]
+** C-2H: [[Neu5Ac Hex HexNAc] [Fuc] Hex] [Neu5Gc Hex HexNAc] Hex [Peaks (11, 11.00): 1 2 3 4 8 9 14 16 17 26 32]
+** C-2H: [[Neu5Ac Hex] [Fuc] HexNAc Hex] [Neu5Gc Hex HexNAc] Hex [Peaks (10, 10.00): 1 2 3 4 8 9 17 19 26 32]
+** C-2H: [[Neu5Ac Hex] [Fuc] HexNAc] [Neu5Gc Hex HexNAc Hex] Hex [Peaks (10, 10.00): 1 2 3 4 8 9 17 19 21 32]
+** C-2H: [[Neu5Ac] [Fuc] Hex HexNAc Hex] [Neu5Gc Hex HexNAc] Hex [Peaks (10, 10.00): 1 2 3 4 9 12 17 19 26 32]
+** C-2H: [[Neu5Ac] [Fuc] Hex HexNAc] [Neu5Gc Hex HexNAc Hex] Hex [Peaks (10, 10.00): 1 2 3 4 9 12 17 19 21 32]
+** C-2H: [[Neu5Ac] [Fuc] HexNAc Hex Hex] [Neu5Gc Hex HexNAc] Hex [Peaks (10, 10.00): 1 2 3 4 9 13 17 19 26 32]
+** C-2H: [[Neu5Ac] [Fuc] HexNAc Hex] [Neu5Gc Hex HexNAc Hex] Hex [Peaks (10, 10.00): 1 2 3 4 9 13 17 19 21 32]
+** C-2H: [[Neu5Gc Hex] [Fuc] HexNAc] [Neu5Ac Hex HexNAc Hex] Hex [Peaks (10, 10.00): 1 2 3 4 8 9 14 16 20 32]
+** C-2H: [[Neu5Gc] [Fuc] HexNAc Hex] [Neu5Ac Hex HexNAc Hex] Hex [Peaks (9, 9.00): 1 2 3 4 8 14 16 20 32]
+
+@ Peak 32 mass 2266.132338 rawMZ -1.000000 rawZ -1 intensity 37616116
+** C: [Neu5Ac Hex HexNAc Hex] [Fuc Neu5Gc HexNAc Hex] Hex [Peaks (8, 8.00): 1 2 3 8 14 16 20 32]
+** C: [Neu5Gc Hex HexNAc Hex] [Fuc Neu5Ac Hex HexNAc] Hex [Peaks (10, 10.00): 1 4 5 6 9 12 17 19 21 32]
+** C: [Neu5Gc Hex HexNAc Hex] [Fuc Neu5Ac HexNAc Hex] Hex [Peaks (10, 10.00): 1 4 5 6 9 13 17 19 21 32]
+** C: [Neu5Gc Hex HexNAc] [Fuc Neu5Ac Hex HexNAc Hex] Hex [Peaks (10, 10.00): 1 4 5 6 9 12 17 19 26 32]
+** C: [Neu5Gc Hex HexNAc] [Fuc Neu5Ac HexNAc Hex Hex] Hex [Peaks (10, 10.00): 1 4 5 6 9 13 17 19 26 32]
+** C: [[Neu5Ac Hex HexNAc] [Fuc] Hex] [Neu5Gc Hex HexNAc] Hex [Peaks (11, 11.00): 1 2 3 4 8 9 14 16 17 26 32]
+** C: [[Neu5Ac Hex] [Fuc] HexNAc Hex] [Neu5Gc Hex HexNAc] Hex [Peaks (10, 10.00): 1 2 3 4 8 9 17 19 26 32]
+** C: [[Neu5Ac Hex] [Fuc] HexNAc] [Neu5Gc Hex HexNAc Hex] Hex [Peaks (10, 10.00): 1 2 3 4 8 9 17 19 21 32]
+** C: [[Neu5Ac] [Fuc] Hex HexNAc Hex] [Neu5Gc Hex HexNAc] Hex [Peaks (10, 10.00): 1 2 3 4 9 12 17 19 26 32]
+** C: [[Neu5Ac] [Fuc] Hex HexNAc] [Neu5Gc Hex HexNAc Hex] Hex [Peaks (10, 10.00): 1 2 3 4 9 12 17 19 21 32]
+** C: [[Neu5Ac] [Fuc] HexNAc Hex Hex] [Neu5Gc Hex HexNAc] Hex [Peaks (10, 10.00): 1 2 3 4 9 13 17 19 26 32]
+** C: [[Neu5Ac] [Fuc] HexNAc Hex] [Neu5Gc Hex HexNAc Hex] Hex [Peaks (10, 10.00): 1 2 3 4 9 13 17 19 21 32]
+** C: [[Neu5Gc Hex] [Fuc] HexNAc] [Neu5Ac Hex HexNAc Hex] Hex [Peaks (10, 10.00): 1 2 3 4 8 9 14 16 20 32]
+** C: [[Neu5Gc] [Fuc] HexNAc Hex] [Neu5Ac Hex HexNAc Hex] Hex [Peaks (9, 9.00): 1 2 3 4 8 14 16 20 32]
+
+@ Peak 35 mass 2493.248096 rawMZ -1.000000 rawZ -1 intensity 33815732
+** B: [Neu5Ac Hex HexNAc Hex] [Fuc Neu5Gc HexNAc Hex] Hex HexNAc [Peaks (10, 10.00): 1 2 3 8 14 16 20 32 35 36]
+** B: [Neu5Gc Hex HexNAc Hex] [Fuc Neu5Ac Hex HexNAc Hex] HexNAc [Peaks (12, 12.00): 1 4 5 6 9 12 17 19 21 26 35 36]
+** B: [Neu5Gc Hex HexNAc Hex] [Fuc Neu5Ac Hex HexNAc] Hex HexNAc [Peaks (12, 12.00): 1 4 5 6 9 12 17 19 21 32 35 36]
+** B: [Neu5Gc Hex HexNAc Hex] [Fuc Neu5Ac HexNAc Hex Hex] HexNAc [Peaks (12, 12.00): 1 4 5 6 9 13 17 19 21 26 35 36]
+** B: [Neu5Gc Hex HexNAc Hex] [Fuc Neu5Ac HexNAc Hex] Hex HexNAc [Peaks (12, 12.00): 1 4 5 6 9 13 17 19 21 32 35 36]
+** B: [Neu5Gc Hex HexNAc] [Fuc Neu5Ac Hex HexNAc Hex] Hex HexNAc [Peaks (12, 12.00): 1 4 5 6 9 12 17 19 26 32 35 36]
+** B: [Neu5Gc Hex HexNAc] [Fuc Neu5Ac HexNAc Hex Hex] Hex HexNAc [Peaks (12, 12.00): 1 4 5 6 9 13 17 19 26 32 35 36]
+** B: [[Neu5Ac Hex HexNAc] [Fuc] Hex] [Neu5Gc Hex HexNAc Hex] HexNAc [Peaks (13, 13.00): 1 2 3 4 8 9 14 16 17 21 26 35 36]
+** B: [[Neu5Ac Hex HexNAc] [Fuc] Hex] [Neu5Gc Hex HexNAc] Hex HexNAc [Peaks (13, 13.00): 1 2 3 4 8 9 14 16 17 26 32 35 36]
+** B: [[Neu5Ac Hex] [Fuc] HexNAc Hex] [Neu5Gc Hex HexNAc Hex] HexNAc [Peaks (12, 12.00): 1 2 3 4 8 9 17 19 21 26 35 36]
+** B: [[Neu5Ac Hex] [Fuc] HexNAc Hex] [Neu5Gc Hex HexNAc] Hex HexNAc [Peaks (12, 12.00): 1 2 3 4 8 9 17 19 26 32 35 36]
+** B: [[Neu5Ac Hex] [Fuc] HexNAc] [Neu5Gc Hex HexNAc Hex] Hex HexNAc [Peaks (12, 12.00): 1 2 3 4 8 9 17 19 21 32 35 36]
+** B: [[Neu5Ac] [Fuc] Hex HexNAc Hex] [Neu5Gc Hex HexNAc Hex] HexNAc [Peaks (12, 12.00): 1 2 3 4 9 12 17 19 21 26 35 36]
+** B: [[Neu5Ac] [Fuc] Hex HexNAc Hex] [Neu5Gc Hex HexNAc] Hex HexNAc [Peaks (12, 12.00): 1 2 3 4 9 12 17 19 26 32 35 36]
+** B: [[Neu5Ac] [Fuc] Hex HexNAc] [Neu5Gc Hex HexNAc Hex] Hex HexNAc [Peaks (12, 12.00): 1 2 3 4 9 12 17 19 21 32 35 36]
+** B: [[Neu5Ac] [Fuc] HexNAc Hex Hex] [Neu5Gc Hex HexNAc Hex] HexNAc [Peaks (12, 12.00): 1 2 3 4 9 13 17 19 21 26 35 36]
+** B: [[Neu5Ac] [Fuc] HexNAc Hex Hex] [Neu5Gc Hex HexNAc] Hex HexNAc [Peaks (12, 12.00): 1 2 3 4 9 13 17 19 26 32 35 36]
+** B: [[Neu5Ac] [Fuc] HexNAc Hex] [Neu5Gc Hex HexNAc Hex] Hex HexNAc [Peaks (12, 12.00): 1 2 3 4 9 13 17 19 21 32 35 36]
+** B: [[Neu5Gc Hex] [Fuc] HexNAc] [Neu5Ac Hex HexNAc Hex] Hex HexNAc [Peaks (12, 12.00): 1 2 3 4 8 9 14 16 20 32 35 36]
+** B: [[Neu5Gc] [Fuc] HexNAc Hex] [Neu5Ac Hex HexNAc Hex] Hex HexNAc [Peaks (11, 11.00): 1 2 3 4 8 14 16 20 32 35 36]
+
+@ Peak 36 mass 2511.258661 rawMZ -1.000000 rawZ -1 intensity 31425406
+** C: [Neu5Ac Hex HexNAc Hex] [Fuc Neu5Gc HexNAc Hex] Hex HexNAc [Peaks (10, 10.00): 1 2 3 8 14 16 20 32 35 36]
+** C: [Neu5Gc Hex HexNAc Hex] [Fuc Neu5Ac Hex HexNAc Hex] HexNAc [Peaks (12, 12.00): 1 4 5 6 9 12 17 19 21 26 35 36]
+** C: [Neu5Gc Hex HexNAc Hex] [Fuc Neu5Ac Hex HexNAc] Hex HexNAc [Peaks (12, 12.00): 1 4 5 6 9 12 17 19 21 32 35 36]
+** C: [Neu5Gc Hex HexNAc Hex] [Fuc Neu5Ac HexNAc Hex Hex] HexNAc [Peaks (12, 12.00): 1 4 5 6 9 13 17 19 21 26 35 36]
+** C: [Neu5Gc Hex HexNAc Hex] [Fuc Neu5Ac HexNAc Hex] Hex HexNAc [Peaks (12, 12.00): 1 4 5 6 9 13 17 19 21 32 35 36]
+** C: [Neu5Gc Hex HexNAc] [Fuc Neu5Ac Hex HexNAc Hex] Hex HexNAc [Peaks (12, 12.00): 1 4 5 6 9 12 17 19 26 32 35 36]
+** C: [Neu5Gc Hex HexNAc] [Fuc Neu5Ac HexNAc Hex Hex] Hex HexNAc [Peaks (12, 12.00): 1 4 5 6 9 13 17 19 26 32 35 36]
+** C: [[Neu5Ac Hex HexNAc] [Fuc] Hex] [Neu5Gc Hex HexNAc Hex] HexNAc [Peaks (13, 13.00): 1 2 3 4 8 9 14 16 17 21 26 35 36]
+** C: [[Neu5Ac Hex HexNAc] [Fuc] Hex] [Neu5Gc Hex HexNAc] Hex HexNAc [Peaks (13, 13.00): 1 2 3 4 8 9 14 16 17 26 32 35 36]
+** C: [[Neu5Ac Hex] [Fuc] HexNAc Hex] [Neu5Gc Hex HexNAc Hex] HexNAc [Peaks (12, 12.00): 1 2 3 4 8 9 17 19 21 26 35 36]
+** C: [[Neu5Ac Hex] [Fuc] HexNAc Hex] [Neu5Gc Hex HexNAc] Hex HexNAc [Peaks (12, 12.00): 1 2 3 4 8 9 17 19 26 32 35 36]
+** C: [[Neu5Ac Hex] [Fuc] HexNAc] [Neu5Gc Hex HexNAc Hex] Hex HexNAc [Peaks (12, 12.00): 1 2 3 4 8 9 17 19 21 32 35 36]
+** C: [[Neu5Ac] [Fuc] Hex HexNAc Hex] [Neu5Gc Hex HexNAc Hex] HexNAc [Peaks (12, 12.00): 1 2 3 4 9 12 17 19 21 26 35 36]
+** C: [[Neu5Ac] [Fuc] Hex HexNAc Hex] [Neu5Gc Hex HexNAc] Hex HexNAc [Peaks (12, 12.00): 1 2 3 4 9 12 17 19 26 32 35 36]
+** C: [[Neu5Ac] [Fuc] Hex HexNAc] [Neu5Gc Hex HexNAc Hex] Hex HexNAc [Peaks (12, 12.00): 1 2 3 4 9 12 17 19 21 32 35 36]
+** C: [[Neu5Ac] [Fuc] HexNAc Hex Hex] [Neu5Gc Hex HexNAc Hex] HexNAc [Peaks (12, 12.00): 1 2 3 4 9 13 17 19 21 26 35 36]
+** C: [[Neu5Ac] [Fuc] HexNAc Hex Hex] [Neu5Gc Hex HexNAc] Hex HexNAc [Peaks (12, 12.00): 1 2 3 4 9 13 17 19 26 32 35 36]
+** C: [[Neu5Ac] [Fuc] HexNAc Hex] [Neu5Gc Hex HexNAc Hex] Hex HexNAc [Peaks (12, 12.00): 1 2 3 4 9 13 17 19 21 32 35 36]
+** C: [[Neu5Gc Hex] [Fuc] HexNAc] [Neu5Ac Hex HexNAc Hex] Hex HexNAc [Peaks (12, 12.00): 1 2 3 4 8 9 14 16 20 32 35 36]
+** C: [[Neu5Gc] [Fuc] HexNAc Hex] [Neu5Ac Hex HexNAc Hex] Hex HexNAc [Peaks (11, 11.00): 1 2 3 4 8 14 16 20 32 35 36]
+
+@ Peak 38 mass 2961.527423 rawMZ -1.000000 rawZ -1 intensity 1.000000e-06
+** T: [[[Neu5Ac Hex HexNAc] [Fuc] Hex] [Neu5Gc Hex HexNAc Hex] HexNAc] [Fuc] HexNAc [Peaks (14, 14.00): 1 2 3 4 8 9 14 16 17 21 26 35 36 38]
+** T: [[[Neu5Ac Hex HexNAc] [Fuc] Hex] [Neu5Gc Hex HexNAc] Hex HexNAc] [Fuc] HexNAc [Peaks (14, 14.00): 1 2 3 4 8 9 14 16 17 26 32 35 36 38]
+** T: [[Neu5Gc Hex HexNAc Hex] [Fuc Neu5Ac Hex HexNAc Hex] HexNAc] [Fuc] HexNAc [Peaks (13, 13.00): 1 4 5 6 9 12 17 19 21 26 35 36 38]
+** T: [[Neu5Gc Hex HexNAc Hex] [Fuc Neu5Ac Hex HexNAc] Hex HexNAc] [Fuc] HexNAc [Peaks (13, 13.00): 1 4 5 6 9 12 17 19 21 32 35 36 38]
+** T: [[Neu5Gc Hex HexNAc Hex] [Fuc Neu5Ac HexNAc Hex Hex] HexNAc] [Fuc] HexNAc [Peaks (13, 13.00): 1 4 5 6 9 13 17 19 21 26 35 36 38]
+** T: [[Neu5Gc Hex HexNAc Hex] [Fuc Neu5Ac HexNAc Hex] Hex HexNAc] [Fuc] HexNAc [Peaks (13, 13.00): 1 4 5 6 9 13 17 19 21 32 35 36 38]
+** T: [[Neu5Gc Hex HexNAc] [Fuc Neu5Ac Hex HexNAc Hex] Hex HexNAc] [Fuc] HexNAc [Peaks (13, 13.00): 1 4 5 6 9 12 17 19 26 32 35 36 38]
+** T: [[Neu5Gc Hex HexNAc] [Fuc Neu5Ac HexNAc Hex Hex] Hex HexNAc] [Fuc] HexNAc [Peaks (13, 13.00): 1 4 5 6 9 13 17 19 26 32 35 36 38]
+** T: [[[Neu5Ac Hex] [Fuc] HexNAc Hex] [Neu5Gc Hex HexNAc Hex] HexNAc] [Fuc] HexNAc [Peaks (13, 13.00): 1 2 3 4 8 9 17 19 21 26 35 36 38]
+** T: [[[Neu5Ac Hex] [Fuc] HexNAc Hex] [Neu5Gc Hex HexNAc] Hex HexNAc] [Fuc] HexNAc [Peaks (13, 13.00): 1 2 3 4 8 9 17 19 26 32 35 36 38]
+** T: [[[Neu5Ac Hex] [Fuc] HexNAc] [Neu5Gc Hex HexNAc Hex] Hex HexNAc] [Fuc] HexNAc [Peaks (13, 13.00): 1 2 3 4 8 9 17 19 21 32 35 36 38]
+** T: [[[Neu5Ac] [Fuc] Hex HexNAc Hex] [Neu5Gc Hex HexNAc Hex] HexNAc] [Fuc] HexNAc [Peaks (13, 13.00): 1 2 3 4 9 12 17 19 21 26 35 36 38]
+** T: [[[Neu5Ac] [Fuc] Hex HexNAc Hex] [Neu5Gc Hex HexNAc] Hex HexNAc] [Fuc] HexNAc [Peaks (13, 13.00): 1 2 3 4 9 12 17 19 26 32 35 36 38]
+** T: [[[Neu5Ac] [Fuc] Hex HexNAc] [Neu5Gc Hex HexNAc Hex] Hex HexNAc] [Fuc] HexNAc [Peaks (13, 13.00): 1 2 3 4 9 12 17 19 21 32 35 36 38]
+** T: [[[Neu5Ac] [Fuc] HexNAc Hex Hex] [Neu5Gc Hex HexNAc Hex] HexNAc] [Fuc] HexNAc [Peaks (13, 13.00): 1 2 3 4 9 13 17 19 21 26 35 36 38]
+** T: [[[Neu5Ac] [Fuc] HexNAc Hex Hex] [Neu5Gc Hex HexNAc] Hex HexNAc] [Fuc] HexNAc [Peaks (13, 13.00): 1 2 3 4 9 13 17 19 26 32 35 36 38]
+** T: [[[Neu5Ac] [Fuc] HexNAc Hex] [Neu5Gc Hex HexNAc Hex] Hex HexNAc] [Fuc] HexNAc [Peaks (13, 13.00): 1 2 3 4 9 13 17 19 21 32 35 36 38]
+** T: [[[Neu5Gc Hex] [Fuc] HexNAc] [Neu5Ac Hex HexNAc Hex] Hex HexNAc] [Fuc] HexNAc [Peaks (13, 13.00): 1 2 3 4 8 9 14 16 20 32 35 36 38]
+** T: [[[Neu5Gc] [Fuc] HexNAc Hex] [Neu5Ac Hex HexNAc Hex] Hex HexNAc] [Fuc] HexNAc [Peaks (12, 12.00): 1 2 3 4 8 14 16 20 32 35 36 38]
+** T: [[Neu5Ac Hex HexNAc Hex] [Fuc Neu5Gc HexNAc Hex] Hex HexNAc] [Fuc] HexNAc [Peaks (11, 11.00): 1 2 3 8 14 16 20 32 35 36 38]
+

@@ -1,0 +1,35 @@
+# Sialyl Lewis X. [Neu5Ac(a2-3) Gal(b1-4)] [Fuc(a1-3)] GlcNAc
+# Check -2H = 0
+# Allow gap = 0
+# Composition: [Fuc: 2] [HexNAc: 1] [Neu5Gc: 1]
+
+@ Peak 1 complement 12 mass 189.112135 rawMZ -1.000000 rawZ -1 intensity 11514935
+** B: Fuc [Peaks (2, 2.00): 1 2]
+
+@ Peak 2 complement 11 mass 207.122700 rawMZ -1.000000 rawZ -1 intensity 191932060
+** C: Fuc [Peaks (2, 2.00): 1 2]
+
+@ Peak 5 complement 8 mass 434.238458 rawMZ 456.220540 rawZ 1 intensity 84463384
+** B: Fuc HexNAc [Peaks (4, 4.00): 1 2 5 6]
+
+@ Peak 6 complement 7 mass 452.249023 rawMZ 474.231170 rawZ 1 intensity 12561285
+** C: Fuc HexNAc [Peaks (4, 4.00): 1 2 5 6]
+
+@ Peak 7 complement 6 mass 580.296367 rawMZ 602.278670 rawZ 1 intensity 10272154
+** B: Fuc Neu5Gc [Peaks (4, 4.00): 1 2 7 8]
+
+@ Peak 8 complement 5 mass 598.306932 rawMZ 620.289090 rawZ 1 intensity 107745880
+** C: Fuc Neu5Gc [Peaks (4, 4.00): 1 2 7 8]
+
+@ Peak 9 complement 4 mass 608.327667 rawMZ 630.309730 rawZ 1 intensity 413162688
+** B: [Fuc] [Fuc] HexNAc [Peaks (3, 3.00): 1 2 9]
+
+@ Peak 10 complement 3 mass 754.385576 rawMZ 776.367580 rawZ 1 intensity 5918108
+** B: [Fuc] [Fuc] Neu5Gc [Peaks (3, 3.00): 1 2 10]
+
+@ Peak 13 mass 1031.538113 rawMZ 1053.519590 rawZ 1 intensity 1.000000e-06
+** T: [Fuc HexNAc] [Fuc] Neu5Gc [Peaks (5, 5.00): 1 2 5 6 13]
+** T: [Fuc Neu5Gc] [Fuc] HexNAc [Peaks (5, 5.00): 1 2 7 8 13]
+** T: [Fuc] [Fuc] HexNAc Neu5Gc [Peaks (4, 4.00): 1 2 9 13]
+** T: [Fuc] [Fuc] Neu5Gc HexNAc [Peaks (4, 4.00): 1 2 10 13]
+

@@ -1,0 +1,35 @@
+# Lewis B. [Fuc(a1-2) Gal(b1-3)] [Fuc(a1-4)] GlcNAc(b1-0)
+# Check -2H = 0
+# Allow gap = 0
+# Composition: [Fuc: 2] [Hex: 1] [HexNAc: 1]
+
+@ Peak 1 complement 12 mass 189.112135 rawMZ -1.000000 rawZ -1 intensity 47067604
+** B: Fuc [Peaks (2, 2.00): 1 2]
+
+@ Peak 2 complement 11 mass 207.122700 rawMZ -1.000000 rawZ -1 intensity 854465856
+** C: Fuc [Peaks (2, 2.00): 1 2]
+
+@ Peak 5 complement 8 mass 393.211909 rawMZ 415.193990 rawZ 1 intensity 22103924
+** B: Fuc Hex [Peaks (4, 4.00): 1 2 5 6]
+
+@ Peak 6 complement 7 mass 411.222474 rawMZ 433.204460 rawZ 1 intensity 93796120
+** C: Fuc Hex [Peaks (4, 4.00): 1 2 5 6]
+
+@ Peak 7 complement 6 mass 434.238458 rawMZ 456.220360 rawZ 1 intensity 164614384
+** B: Fuc HexNAc [Peaks (4, 4.00): 1 2 7 8]
+
+@ Peak 8 complement 5 mass 452.249023 rawMZ -1.000000 rawZ -1 intensity 22103924
+** C: Fuc HexNAc [Peaks (4, 4.00): 1 2 7 8]
+
+@ Peak 9 complement 4 mass 567.301118 rawMZ 589.283170 rawZ 1 intensity 85519632
+** B: [Fuc] [Fuc] Hex [Peaks (3, 3.00): 1 2 9]
+
+@ Peak 10 complement 3 mass 608.327667 rawMZ 630.309700 rawZ 1 intensity 228944576
+** B: [Fuc] [Fuc] HexNAc [Peaks (3, 3.00): 1 2 10]
+
+@ Peak 13 mass 844.453655 rawMZ 866.435420 rawZ 1 intensity 1.000000e-06
+** T: [Fuc HexNAc] [Fuc] Hex [Peaks (5, 5.00): 1 2 7 8 13]
+** T: [Fuc Hex] [Fuc] HexNAc [Peaks (5, 5.00): 1 2 5 6 13]
+** T: [Fuc] [Fuc] Hex HexNAc [Peaks (4, 4.00): 1 2 9 13]
+** T: [Fuc] [Fuc] HexNAc Hex [Peaks (4, 4.00): 1 2 10 13]
+
