@@ -1,10 +1,11 @@
-# GlycoDeNovo2. This has been tested on Windows machines.
+# GlycoDeNovo2. 
+This instruction was only tested on Windows machines.
 ## Install
 * Download GlycoDeNovo2.exe and m2c.mat. Make sure both of them are under the same folder.
 * Install Matlab Runtime 9.8. If your operating system is Windows, please add Matlab Runtime in environment variables. [Link](https://www.mathworks.com/matlabcentral/answers/343074-why-do-i-receive-could-not-find-version-x-x-of-mcr-when-running-my-compiled-app-and-mcr-is-instal)
 ## How to use
-* Put all mass spectrum text files in one folder. Make sure there are no other txt files.
-* Use command line to start the matlab program. **Do not double click the exe file.** Followed by the parameters [input folder path] [ouput folder path] [max branch number]. 
+* Put all MS/MS spectrum text files in one folder. Make sure there are no other txt files.
+* Use command line to run GlycoDeNovo2.exe. **Do not run it by double clicking it.** The command line should be "GlycoDeNovo2.exe [input_directory] [output_directory] [max_branching_number]. For example 
 ```
 >GlycoDeNovo2.exe Desktop\a\input Desktop\a\output 3
 ```
