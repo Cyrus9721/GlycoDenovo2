@@ -16,11 +16,11 @@ GlycoDeNovo2.exe input output 2
 
 * It will take a while for GlycoDeNovo2.exe to initialize MATLAB runtime library and toolboxes. GlycoDeNovo2 will run the reconstruction procedure on all spectrum files in the [input_directory] and save the reconstruction results in the [output_directory]. 
 
-# GlycanMP (Composition-to-Topology)
-* GlycanMP1.exe creates all possible topologies of a monosaccharide composition and saves them into a json file. This is required in generate all topologies to be sampled in calculating p-values.
+# GlycanC2T (Composition-to-Topology)
+* GlycanC2T.exe creates all possible topologies of a monosaccharide composition with maximum branch number = 2 and saves them into a json file. This is required in generate all topologies to be sampled in calculating p-values.
 * List all compositions in a csv file, for example, 'composition.csv' in this github respository. Each line is a composition. 
 * Run GlycanMP1.exe using the following command line
   ```
     GlycanC2T.exe composition.csv
   ```
-* GlycanMP.exe reads the composition file and generates one json file for each composition in the same folder where GlycanMP1.exe is located.
+* GlycanC2T.exe reads the composition file and generates one json file for each composition in the same folder where GlycanC2T.exe is located.
