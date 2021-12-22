@@ -1,6 +1,6 @@
 This instruction was only tested on Windows machines.
 
-## Install Matlab Runtime
+# Install Matlab Runtime
 * Download and install Matlab Runtime 9.8 (https://www.mathworks.com/products/compiler/matlab-runtime.html). If your operating system is Windows, please add Matlab Runtime in environment variables (https://www.mathworks.com/matlabcentral/answers/343074-why-do-i-receive-could-not-find-version-x-x-of-mcr-when-running-my-compiled-app-and-mcr-is-instal).
 
 # GlycoDeNovo2. 
