@@ -1,0 +1,42 @@
+# # LNFP 1. Fuc(a1-2) Gal(b1-3) GlcNAc(b1-3) Gal(b1-4) Glc(b1-0)
+
+@ Peak 21 complement -438 mass 207.122266 rawMZ 896.434810 rawZ 1 intensity 29855490. IC = [0.00, 3.66]
+** C: Fuc [Peaks (1, 0.00): 21]
+
+@ Peak 41 complement -418 mass 237.133306 rawMZ 866.423770 rawZ 1 intensity 14107676. IC = [0.00, 0.43]
+** C: Hex [Peaks (1, 0.00): 41]
+
+@ Peak 127 complement 332 mass 411.222416 rawMZ 433.204360 rawZ 1 intensity 42770552. IC = [0.00, 1.97]
+** C: Fuc Hex [Peaks (2, 3.66): 21 127]
+
+@ Peak 148 complement -311 mass 441.232636 rawMZ 662.324440 rawZ 1 intensity 135879872. IC = [0.00, -2.90]
+** C: Hex Hex [Peaks (2, 0.43): 41 148]
+
+@ Peak 192 complement -267 mass 482.259096 rawMZ 621.297980 rawZ 1 intensity 42323132. IC = [0.00, -3.75]
+** C: Hex HexNAc [Peaks (2, 0.43): 41 192]
+
+@ Peak 308 complement -151 mass 638.338086 rawMZ 660.320030 rawZ 1 intensity 131377512. IC = [3.58, 0.00]
+** B: Fuc Hex HexNAc [Peaks (4, 9.21): 21 127 308 308]
+** B: Fuc HexNAc Hex [Peaks (4, 4.90): 21 157 308 308]
+** B: [Hex] [Fuc] HexNAc [Peaks (4, 7.67): 21 41 308 308]
+
+@ Peak 321 complement -138 mass 656.348396 rawMZ 447.208680 rawZ 1 intensity 84602680. IC = [0.00, 3.67]
+** C: Fuc Hex HexNAc [Peaks (4, 9.21): 21 127 308 321]
+** C: Fuc HexNAc Hex [Peaks (4, 4.90): 21 157 308 321]
+** C: [Hex] [Fuc] HexNAc [Peaks (4, 7.67): 21 41 308 321]
+
+@ Peak 523 mass 1080.567846 rawMZ 1102.549790 rawZ 1 intensity 7394723328
+** T: Fuc Hex HexNAc Hex Hex [Peaks (6, 15.52): 21 127 308 321 428 523]
+** T: [Hex] [Fuc] HexNAc Hex Hex [Peaks (6, 13.98): 21 41 308 321 428 523]
+** T: [Hex] [Fuc Hex HexNAc] Hex [Peaks (6, 13.31): 21 41 127 308 321 523]
+** T: [[Hex] [Fuc] HexNAc] [Hex] Hex [Peaks (5, 11.34): 21 41 308 321 523]
+** T: Fuc HexNAc Hex Hex Hex [Peaks (6, 11.20): 21 157 308 321 428 523]
+** T: [Hex] [Fuc HexNAc Hex] Hex [Peaks (6, 9.00): 21 41 157 308 321 523]
+** T: [Hex] [Fuc Hex] HexNAc Hex [Peaks (5, 8.70): 21 41 127 428 523]
+** T: [Hex] [Fuc HexNAc] Hex Hex [Peaks (5, 4.38): 21 41 157 428 523]
+** T: [Hex Hex] [Fuc] HexNAc Hex [Peaks (5, 3.82): 21 41 148 428 523]
+** T: [Hex Hex] [Fuc Hex] HexNAc [Peaks (5, 3.16): 21 41 127 148 523]
+** T: [Hex HexNAc] [Fuc] Hex Hex [Peaks (5, 2.97): 21 41 192 428 523]
+** T: [Hex HexNAc] [Fuc Hex] Hex [Peaks (5, 2.31): 21 41 127 192 523]
+** T: [Hex Hex] [Fuc HexNAc] Hex [Peaks (5, -1.16): 21 41 148 157 523]
+

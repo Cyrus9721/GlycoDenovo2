@@ -1,0 +1,29 @@
+# # LNT. Gal(b1-3) GlcNAc(b1-3) Gal(b1-4) Glc
+
+@ Peak 22 complement 245 mass 237.133126 rawMZ 259.115070 rawZ 1 intensity 145233088. IC = [0.00, 3.40]
+** C: Hex [Peaks (1, 0.00): 22]
+
+@ Peak 114 complement 153 mass 423.222556 rawMZ 445.204500 rawZ 1 intensity 1010164800. IC = [-6.07, 0.00]
+** B: Hex Hex [Peaks (3, -2.67): 22 114 114]
+
+@ Peak 126 complement 141 mass 441.232976 rawMZ 463.214920 rawZ 1 intensity 1153169280. IC = [0.00, -6.09]
+** C: Hex Hex [Peaks (3, -2.67): 22 114 126]
+
+@ Peak 141 complement 126 mass 464.248976 rawMZ 486.230920 rawZ 1 intensity 1484058880. IC = [1.41, 0.00]
+** B: Hex HexNAc [Peaks (3, 4.82): 22 141 141]
+
+@ Peak 153 complement 114 mass 482.259596 rawMZ 504.241540 rawZ 1 intensity 37823820. IC = [0.00, 2.73]
+** C: Hex HexNAc [Peaks (3, 4.82): 22 141 153]
+
+@ Peak 245 complement 22 mass 668.348816 rawMZ 690.330760 rawZ 1 intensity 1740255360. IC = [2.53, 0.00]
+** B: Hex Hex HexNAc [Peaks (4, -8.76): 22 114 126 245]
+** B: Hex HexNAc Hex [Peaks (4, 7.55): 22 141 153 245]
+** B: [Hex] [Hex] HexNAc [Peaks (2, 3.40): 22 245]
+
+@ Peak 320 mass 904.474596 rawMZ 926.456540 rawZ 1 intensity 49420148736
+** T: Hex HexNAc Hex Hex [Peaks (5, 10.08): 22 141 153 245 320]
+** T: [Hex HexNAc] [Hex] Hex [Peaks (4, 7.55): 22 141 153 320]
+** T: [Hex] [Hex] HexNAc Hex [Peaks (3, 5.94): 22 245 320]
+** T: Hex Hex HexNAc Hex [Peaks (5, -6.22): 22 114 126 245 320]
+** T: [Hex Hex] [Hex] HexNAc [Peaks (4, -8.76): 22 114 126 320]
+

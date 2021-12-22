@@ -1,0 +1,25 @@
+# # Lewis Y. [Fuc(a1-2) Gal(b1-4)][Fuc(a1-3)] GlcNAc(b1-0)
+
+@ Peak 5 complement -232 mass 189.112016 rawMZ 680.334860 rawZ 1 intensity 117455600. IC = [4.14, 0.00]
+** B: Fuc [Peaks (2, 4.14): 5 5]
+
+@ Peak 12 complement -225 mass 207.122476 rawMZ 662.324400 rawZ 1 intensity 1724683392. IC = [0.00, 3.83]
+** C: Fuc [Peaks (2, 4.14): 5 12]
+
+@ Peak 102 complement 135 mass 393.211896 rawMZ 415.193840 rawZ 1 intensity 47328840. IC = [4.95, 0.00]
+** B: Fuc Hex [Peaks (4, 12.92): 5 12 102 102]
+
+@ Peak 113 complement 124 mass 411.222446 rawMZ 433.204390 rawZ 1 intensity 230202128. IC = [0.00, 3.43]
+** C: Fuc Hex [Peaks (4, 12.92): 5 12 102 113]
+
+@ Peak 200 complement -37 mass 585.311746 rawMZ 607.293690 rawZ 1 intensity 7494302. IC = [0.00, -2.23]
+** C: [Fuc] [Fuc] Hex [Peaks (3, 7.98): 5 12 200]
+
+@ Peak 211 complement -26 mass 608.327646 rawMZ 630.309590 rawZ 1 intensity 68712144. IC = [-3.41, 0.00]
+** B: [Fuc] [Fuc] HexNAc [Peaks (3, 7.98): 5 12 211]
+
+@ Peak 302 mass 846.458077 rawMZ 868.440020 rawZ 1 intensity 55753725800
+** T: [Fuc Hex] [Fuc] HexNAc [Peaks (5, 16.35): 5 12 102 113 302]
+** T: [Fuc] [Fuc] Hex HexNAc [Peaks (4, 5.75): 5 12 200 302]
+** T: [Fuc] [Fuc] HexNAc Hex [Peaks (4, 4.57): 5 12 211 302]
+

@@ -1,0 +1,61 @@
+# # CelHex. Glc(b1-4) Glc(b1-4) Glc(b1-4) Glc(b1-4) Glc(b1-4) Glc(b1-0)
+
+@ Peak 7 complement -371 mass 219.117866 rawMZ 1075.519050 rawZ 1 intensity 61314784. IC = [2.36, 0.00]
+** B: Hex [Peaks (2, 2.36): 7 7]
+
+@ Peak 13 complement -365 mass 237.133176 rawMZ 1057.503740 rawZ 1 intensity 990608896. IC = [0.00, 1.91]
+** C: Hex [Peaks (2, 2.36): 7 13]
+
+@ Peak 86 complement 293 mass 423.221626 rawMZ 445.203570 rawZ 1 intensity 529537376. IC = [6.76, 0.00]
+** B: Hex Hex [Peaks (4, 11.03): 7 13 86 86]
+
+@ Peak 94 complement 283 mass 441.232326 rawMZ 463.214270 rawZ 1 intensity 273650368. IC = [0.00, 4.57]
+** C: Hex Hex [Peaks (4, 11.03): 7 13 86 94]
+
+@ Peak 184 complement 193 mass 627.322446 rawMZ 649.304390 rawZ 1 intensity 1271175296. IC = [6.62, 0.00]
+** B: Hex Hex Hex [Peaks (6, 22.22): 7 13 86 94 184 184]
+** B: [Hex] [Hex] Hex [Peaks (4, 10.89): 7 13 184 184]
+
+@ Peak 193 complement 184 mass 645.332616 rawMZ 667.314560 rawZ 1 intensity 479453536. IC = [0.00, 6.60]
+** C: Hex Hex Hex [Peaks (6, 22.22): 7 13 86 94 184 193]
+** C: [Hex] [Hex] Hex [Peaks (4, 10.89): 7 13 184 193]
+
+@ Peak 283 complement 94 mass 831.422116 rawMZ 853.404060 rawZ 1 intensity 2195512320. IC = [3.21, 0.00]
+** B: Hex Hex Hex Hex [Peaks (8, 32.03): 7 13 86 94 184 193 283 283]
+** B: [Hex Hex] [Hex] Hex [Peaks (6, 18.81): 7 13 86 94 283 283]
+** B: [Hex] [Hex] Hex Hex [Peaks (6, 20.70): 7 13 184 193 283 283]
+
+@ Peak 291 complement 88 mass 849.425696 rawMZ 871.407640 rawZ 1 intensity 170411120. IC = [0.00, -0.12]
+** C: Hex Hex Hex Hex [Peaks (8, 32.03): 7 13 86 94 184 193 283 291]
+** C: [Hex Hex] [Hex] Hex [Peaks (6, 18.81): 7 13 86 94 283 291]
+** C: [Hex] [Hex] Hex Hex [Peaks (6, 20.70): 7 13 184 193 283 291]
+
+@ Peak 365 complement -13 mass 1035.521796 rawMZ 1057.503740 rawZ 1 intensity 990608896. IC = [3.71, 0.00]
+** B: Hex Hex Hex Hex Hex [Peaks (10, 35.63): 7 13 86 94 184 193 283 291 365 365]
+** B: [Hex Hex Hex] [Hex] Hex [Peaks (8, 32.54): 7 13 86 94 184 193 365 365]
+** B: [Hex Hex] [Hex Hex] Hex [Peaks (6, 19.31): 7 13 86 94 365 365]
+** B: [Hex Hex] [Hex] Hex Hex [Peaks (8, 22.40): 7 13 86 94 283 291 365 365]
+** B: [Hex] [Hex] Hex Hex Hex [Peaks (8, 24.30): 7 13 184 193 283 291 365 365]
+** B: [[Hex] [Hex] Hex] [Hex] Hex [Peaks (6, 21.21): 7 13 184 193 365 365]
+
+@ Peak 371 complement -7 mass 1053.537106 rawMZ 1075.519050 rawZ 1 intensity 61314784. IC = [0.00, 2.22]
+** C: Hex Hex Hex Hex Hex [Peaks (10, 35.63): 7 13 86 94 184 193 283 291 365 371]
+** C: [Hex Hex Hex] [Hex] Hex [Peaks (8, 32.54): 7 13 86 94 184 193 365 371]
+** C: [Hex Hex] [Hex Hex] Hex [Peaks (6, 19.31): 7 13 86 94 365 371]
+** C: [Hex Hex] [Hex] Hex Hex [Peaks (8, 22.40): 7 13 86 94 283 291 365 371]
+** C: [Hex] [Hex] Hex Hex Hex [Peaks (8, 24.30): 7 13 184 193 283 291 365 371]
+** C: [[Hex] [Hex] Hex] [Hex] Hex [Peaks (6, 21.21): 7 13 184 193 365 371]
+
+@ Peak 417 mass 1271.647696 rawMZ 1293.629640 rawZ 1 intensity 65994141696
+** T: Hex Hex Hex Hex Hex Hex [Peaks (11, 37.85): 7 13 86 94 184 193 283 291 365 371 417]
+** T: [Hex Hex Hex] [Hex] Hex Hex [Peaks (9, 34.76): 7 13 86 94 184 193 365 371 417]
+** T: [Hex Hex Hex Hex] [Hex] Hex [Peaks (9, 31.92): 7 13 86 94 184 193 283 291 417]
+** T: [Hex Hex Hex] [Hex Hex] Hex [Peaks (7, 28.82): 7 13 86 94 184 193 417]
+** T: [[Hex] [Hex] Hex] [Hex Hex] Hex [Peaks (7, 28.82): 7 13 86 94 184 193 417]
+** T: [Hex] [Hex] Hex Hex Hex Hex [Peaks (9, 26.52): 7 13 184 193 283 291 365 371 417]
+** T: [Hex Hex] [Hex] Hex Hex Hex [Peaks (9, 24.62): 7 13 86 94 283 291 365 371 417]
+** T: [[Hex] [Hex] Hex] [Hex] Hex Hex [Peaks (7, 23.43): 7 13 184 193 365 371 417]
+** T: [Hex Hex] [Hex Hex] Hex Hex [Peaks (7, 21.53): 7 13 86 94 365 371 417]
+** T: [[Hex] [Hex] Hex Hex] [Hex] Hex [Peaks (7, 20.59): 7 13 184 193 283 291 417]
+** T: [[Hex Hex] [Hex] Hex] [Hex] Hex [Peaks (7, 18.69): 7 13 86 94 283 291 417]
+
