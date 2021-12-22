@@ -20,11 +20,11 @@ To set if to use gap and to use minus 2H while reconstructing a glycan, first in
 * Type **done** to start GlycoDeNovo2. The reconstructed spectrum data is stored in the output folder.
 
 # GlycanMP
-* GlycanMP.exe creates all possible topologies of a monosaccharide composition and saves them into a json file.
+* GlycanMP1.exe creates all possible topologies of a monosaccharide composition and saves them into a json file.
 ## How to use
-* The input of GlycanMP.exe is a csv file of compositions. GlycanMP.exe reads the csv and generates json files for each composition.
-* **Similar to GlycoDeNovo2.exe, GlycanMP.exe should be started from command line**, followed by the path of the csv file. Example:
+* List all compositions in a csv file, for example, 'composition.csv' in this github respository. Each line is a composition. 
+* Run GlycanMP1.exe using the following command line
   ```
-    >GlycanMp1.exe temp1.csv
+    >GlycanMp1.exe composition.csv
   ```
-* The generated json files will be in the same folder as GlycanMP.exe.
+* GlycanMP.exe reads the composition file and generates one json file for each composition in the same folder where GlycanMP1.exe is located.
