@@ -6,7 +6,7 @@ This instruction was only tested on Windows machines.
 
 # GlycoDeNovo2 (PeakInterpreter2). 
 * GlycoDeNovo2.exe requires 'm2c.mat'. Make sure both of them are under the same folder.
-* Create an input directory and put all MS/MS spectrum text files in it. In addition, create a configuration file 'config.a' specifying the options to be used by GlycoDeNovo2 on each spectrum file. The first column of 'config.a' is the spectrum file name, the second column specifies if the 'gap' search option should be on (i.e., 1) or off (i.e., 0), and the third column specifies if the '-2H' search option should be on (i.e., 1) or off (i.e., 0). This Github contains one "input" directory as an example. Make sure there are no other txt files.
+* Create an input directory and put all MS/MS spectrum text files in it. Each spechtrum file contains a list of peaks. Create a configuration file 'config.a' specifying the options to be used by GlycoDeNovo2 on each spectrum file. The first column of 'config.a' is the spectrum file name, the second column specifies if the 'gap' search option should be on (i.e., 1) or off (i.e., 0), and the third column specifies if the '-2H' search option should be on (i.e., 1) or off (i.e., 0). This Github contains one "input" directory as an example. Make sure there are no other txt files.
 
 * Use command line to run GlycoDeNovo2.exe. **Do not run it by double clicking it.** The command line should be "GlycoDeNovo2.exe [input_directory] [output_directory] [max_branching_number]. For example 
 ```
