@@ -7,7 +7,7 @@ This instruction was only tested on Windows machines.
 * Install Matlab Runtime 9.8 (https://www.mathworks.com/products/compiler/matlab-runtime.html). If your operating system is Windows, please add Matlab Runtime in environment variables (https://www.mathworks.com/matlabcentral/answers/343074-why-do-i-receive-could-not-find-version-x-x-of-mcr-when-running-my-compiled-app-and-mcr-is-instal).
 
 ## How to use
-* Create an input directory and put all MS/MS spectrum text files in it. In addition, create a configuration file ''config.a'' specifying the options to be used by GlycoDeNovo2 on each spectrum file. This Github contains one "input" directory as an example. Make sure there are no other txt files.
+* Create an input directory and put all MS/MS spectrum text files in it. In addition, create a configuration file 'config.a' specifying the options to be used by GlycoDeNovo2 on each spectrum file. The first column of 'config.a' is the spectrum file name, the second column specifies if the 'gap' option should be on (i.e., 1) or off (i.e., 0), and the third column specifies if the '-2H' option should be on (i.e., 1) or off (i.e., 0). This Github contains one "input" directory as an example. Make sure there are no other txt files.
 
 * Use command line to run GlycoDeNovo2.exe. **Do not run it by double clicking it.** The command line should be "GlycoDeNovo2.exe [input_directory] [output_directory] [max_branching_number]. For example 
 ```
