@@ -21,7 +21,7 @@ GlycoDeNovo2.exe input output 2
 # GlycanC2T (Composition-to-Topology)
 * GlycanC2T.exe creates all possible topologies of a monosaccharide composition with maximum branch number = 2 and saves them into a json file. This is required in generate all topologies to be sampled in calculating p-values.
 * List all compositions in a csv file, for example, 'composition.csv' in this github respository. Each line is a composition. 
-* Run GlycanMP1.exe using the following command line
+* Run GlycanC2T.exe using the following command line
   ```
     GlycanC2T.exe composition.csv
   ```
